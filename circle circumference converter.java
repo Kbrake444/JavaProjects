@@ -19,5 +19,3 @@ class Main {
         System.out.println ("2 * " + r1 + " * 3.14 = " + getCirc);
     }
 }
-
-//no commit
