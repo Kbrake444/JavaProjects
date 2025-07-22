@@ -12,7 +12,7 @@ class MyProgram {
         
         text = sc.nextLine();
         
-        System.out.println("The printed out binary secuence is: ");
+        System.out.println("The printed out binary sequence is: ");
         
         binaryText (binary, text, code);
         
@@ -297,16 +297,16 @@ class MyProgram {
             bin = "1111010 ";
         }
         if (txt.charAt(i) == '{'){
-            bin = "1011011 ";
+            bin = "1111011 ";
         }
         if (txt.charAt(i) == '|'){
-            bin = "1011100 ";
+            bin = "1111100 ";
         }
         if (txt.charAt(i) == '}'){
-            bin = "1011101 ";
+            bin = "1111101 ";
         }
         if (txt.charAt(i) == '~'){
-            bin = "1011110 ";
+            bin = "1111110 ";
         }
         
         cd = cd + bin;
