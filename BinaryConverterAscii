@@ -1,0 +1,320 @@
+import java.util.Scanner;
+
+class MyProgram {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    
+    String binary = "";
+    String text = "";
+    String code = "";
+    
+        System.out.println("Enter some text: ");
+        
+        text = sc.nextLine();
+        
+        System.out.println("The printed out binary secuence is: ");
+        
+        binaryText (binary, text, code);
+        
+    }
+    
+    public static void binaryText (String bin, String txt, String cd){
+        
+        
+        for (int i = 0; i < txt.length(); i++){
+            
+        if (txt.charAt(i) == ' '){
+            bin = "0100000 ";
+        }
+        if (txt.charAt(i) == '!'){
+            bin = "0100001 ";
+        }
+        if (txt.charAt(i) == '"'){
+            bin = "0100010 ";
+        }
+        if (txt.charAt(i) == '#'){
+            bin = "0100011 ";
+        }
+        if (txt.charAt(i) == '$'){
+            bin = "0100100 ";
+        }
+        if (txt.charAt(i) == '%'){
+            bin = "0100101 ";
+        }
+        if (txt.charAt(i) == '&'){
+            bin = "0100110 ";
+        }
+        if (txt.charAt(i) == '\''){
+            bin = "0100111 ";
+        }
+        if (txt.charAt(i) == '('){
+            bin = "0101000 ";
+        }
+        if (txt.charAt(i) == ')'){
+            bin = "0101001 ";
+        }
+        if (txt.charAt(i) == '*'){
+            bin = "0101010 ";
+        }
+        if (txt.charAt(i) == '+'){
+            bin = "0101011 ";
+        }
+        if (txt.charAt(i) == ','){
+            bin = "0101100 ";
+        }
+        if (txt.charAt(i) == '-'){
+            bin = "0101101 ";
+        }
+        if (txt.charAt(i) == '.'){
+            bin = "0101110 ";
+        }
+        if (txt.charAt(i) == '/'){
+            bin = "0101111 ";
+        }
+        if (txt.charAt(i) == '0'){
+            bin = "0110000 ";
+        }
+        if (txt.charAt(i) == '1'){
+            bin = "0110001 ";
+        }
+        if (txt.charAt(i) == '2'){
+            bin = "0110010 ";
+        }
+        if (txt.charAt(i) == '3'){
+            bin = "0110011 ";
+        }
+        if (txt.charAt(i) == '4'){
+            bin = "0110100 ";
+        }
+        if (txt.charAt(i) == '5'){
+            bin = "0110101 ";
+        }
+        if (txt.charAt(i) == '6'){
+            bin = "0110110 ";
+        }
+        if (txt.charAt(i) == '7'){
+            bin = "0110111 ";
+        }
+        if (txt.charAt(i) == '8'){
+            bin = "0111000 ";
+        }
+        if (txt.charAt(i) == '9'){
+            bin = "0111001 ";
+        }
+        if (txt.charAt(i) == ':'){
+            bin = "0111010 ";
+        }
+        if (txt.charAt(i) == ';'){
+            bin = "0111011 ";
+        }
+        if (txt.charAt(i) == '<'){
+            bin = "0111100 ";
+        }
+        if (txt.charAt(i) == '='){
+            bin = "0111100 ";
+        }
+        if (txt.charAt(i) == '>'){
+            bin = "0111110 ";
+        }
+        if (txt.charAt(i) == '?'){
+            bin = "0111111 ";
+        }
+        if (txt.charAt(i) == '@'){
+            bin = "1000000 ";
+        }
+        
+            
+        if (txt.charAt(i) == 'A'){
+            bin = "1000001 ";
+        }
+        if (txt.charAt(i) == 'B'){
+            bin = "1000010 ";
+        }
+        if (txt.charAt(i) == 'C'){
+            bin = "1000011 ";
+        }
+        if (txt.charAt(i) == 'D'){
+            bin = "1000100 ";
+        }
+        if (txt.charAt(i) == 'E'){
+            bin = "1000101 ";
+        }
+        if (txt.charAt(i) == 'F'){
+            bin = "1000110 ";
+        }
+        if (txt.charAt(i) == 'G'){
+            bin = "1000111 ";
+        }
+        if (txt.charAt(i) == 'H'){
+            bin = "1001000 ";
+        }
+        if (txt.charAt(i) == 'I'){
+            bin = "1001001 ";
+        }
+        if (txt.charAt(i) == 'J'){
+            bin = "1001010 ";
+        }
+        if (txt.charAt(i) == 'K'){
+            bin = "1001011 ";
+        }
+        if (txt.charAt(i) == 'L'){
+            bin = "1001100 ";
+        }
+        if (txt.charAt(i) == 'M'){
+            bin = "1001101 ";
+        }
+        if (txt.charAt(i) == 'N'){
+            bin = "1001110 ";
+        }
+        if (txt.charAt(i) == 'O'){
+            bin = "1001111 ";
+        }
+        if (txt.charAt(i) == 'P'){
+            bin = "1010000 ";
+        }
+        if (txt.charAt(i) == 'Q'){
+            bin = "1010001 ";
+        }
+        if (txt.charAt(i) == 'R'){
+            bin = "1010010 ";
+        }
+        if (txt.charAt(i) == 'S'){
+            bin = "1010011 ";
+        }
+        if (txt.charAt(i) == 'T'){
+            bin = "1010100 ";
+        }
+        if (txt.charAt(i) == 'U'){
+            bin = "1010101 ";
+        }
+        if (txt.charAt(i) == 'V'){
+            bin = "1010110 ";
+        }
+        if (txt.charAt(i) == 'W'){
+            bin = "1010111 ";
+        }
+        if (txt.charAt(i) == 'X'){
+            bin = "1011000 ";
+        }
+        if (txt.charAt(i) == 'Y'){
+            bin = "1011001 ";
+        }
+        if (txt.charAt(i) == 'Z'){
+            bin = "1011010 ";
+        }
+        if (txt.charAt(i) == '['){
+            bin = "1011011 ";
+        }
+        if (txt.charAt(i) == ']'){
+            bin = "1011101 ";
+        }
+        if (txt.charAt(i) == '^'){
+            bin = "1011110 ";
+        }
+        if (txt.charAt(i) == '_'){
+            bin = "1011111 ";
+        }
+        if (txt.charAt(i) == '`'){
+            bin = "1100000 ";
+        }
+        
+        if (txt.charAt(i) == 'a'){
+            bin = "1100001 ";
+        }
+        if (txt.charAt(i) == 'b'){
+            bin = "1100010 ";
+        }
+        if (txt.charAt(i) == 'c'){
+            bin = "1100011 ";
+        }
+        if (txt.charAt(i) == 'd'){
+            bin = "1100100 ";
+        }
+        if (txt.charAt(i) == 'e'){
+            bin = "1100101 ";
+        }
+        if (txt.charAt(i) == 'f'){
+            bin = "1100110 ";
+        }
+        if (txt.charAt(i) == 'g'){
+            bin = "1100111 ";
+        }
+        if (txt.charAt(i) == 'h'){
+            bin = "1101000 ";
+        }
+        if (txt.charAt(i) == 'i'){
+            bin = "1101001 ";
+        }
+        if (txt.charAt(i) == 'j'){
+            bin = "1101010 ";
+        }
+        if (txt.charAt(i) == 'k'){
+            bin = "1101011 ";
+        }
+        if (txt.charAt(i) == 'l'){
+            bin = "1101100 ";
+        }
+        if (txt.charAt(i) == 'm'){
+            bin = "1101101 ";
+        }
+        if (txt.charAt(i) == 'n'){
+            bin = "1101110 ";
+        }
+        if (txt.charAt(i) == 'o'){
+            bin = "1101111 ";
+        }
+        if (txt.charAt(i) == 'p'){
+            bin = "1110000 ";
+        }
+        if (txt.charAt(i) == 'q'){
+            bin = "1110001 ";
+        }
+        if (txt.charAt(i) == 'r'){
+            bin = "1110010 ";
+        }
+        if (txt.charAt(i) == 's'){
+            bin = "1110011 ";
+        }
+        if (txt.charAt(i) == 't'){
+            bin = "1110100 ";
+        }
+        if (txt.charAt(i) == 'u'){
+            bin = "1110101 ";
+        }
+        if (txt.charAt(i) == 'v'){
+            bin = "1110110 ";
+        }
+        if (txt.charAt(i) == 'w'){
+            bin = "1110111 ";
+        }
+        if (txt.charAt(i) == 'x'){
+            bin = "1111000 ";
+        }
+        if (txt.charAt(i) == 'y'){
+            bin = "1111001 ";
+        }
+        if (txt.charAt(i) == 'z'){
+            bin = "1111010 ";
+        }
+        if (txt.charAt(i) == '{'){
+            bin = "1011011 ";
+        }
+        if (txt.charAt(i) == '|'){
+            bin = "1011100 ";
+        }
+        if (txt.charAt(i) == '}'){
+            bin = "1011101 ";
+        }
+        if (txt.charAt(i) == '~'){
+            bin = "1011110 ";
+        }
+        
+        cd = cd + bin;
+        
+        
+    }
+    
+    System.out.println(cd);
+    
+    }
+}
